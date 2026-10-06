@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Fire Steakhouse | Тараз</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo-link">
+                <img src="logo.svg" alt="Prime Fire">
+                <span class="logo-text">Prime Fire</span>
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="nav-link active">Главная</a></li>
+                    <li><a href="about.html" class="nav-link">О нас</a></li>
+                    <li><a href="menu.html" class="nav-link">Меню</a></li>
+                    <li><a href="reservation.html" class="nav-link">Бронирование</a></li>
+                    <li><a href="contact.html" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+            <a href="reservation.html" class="btn btn-gold" id="header-btn" style="display:none;">Забронировать</a>
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Меню"><span></span><span></span><span></span></button>
+        </div>
+        <nav class="mobile-nav" id="mobile-nav">
+            <ul>
+                <li><a href="index.html" class="nav-link active">Главная</a></li>
+                <li><a href="about.html" class="nav-link">О нас</a></li>
+                <li><a href="menu.html" class="nav-link">Меню</a></li>
+                <li><a href="reservation.html" class="nav-link">Бронирование</a></li>
+                <li><a href="contact.html" class="nav-link">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <img src="logo.svg" alt="Prime Fire Logo" class="hero-logo">
+            <div class="section-ornament">✦ —— ✦ —— ✦</div>
+            <h1>PRIME FIRE</h1>
+            <p class="hero-tagline">Steakhouse • Тараз</p>
+            <p class="hero-desc">В стенах, пропитанных огнём и историей, рождаются стейки, достойные рыцарского пира.</p>
+            <div class="hero-buttons">
+                <a href="menu.html" class="btn btn-gold">Смотреть меню</a>
+                <a href="reservation.html" class="btn btn-outline">Забронировать стол</a>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <div class="section-ornament">⚔</div>
+                <h2>Добро пожаловать в зал огня</h2>
+                <p>Место, где мясо встречается с пламенем</p>
+            </div>
+            <div class="why-grid">
+                <div class="about-text">
+                    <h3>Атмосфера средневекового пира</h3>
+                    <p>Prime Fire — это зал, где каждый стейк готовится на открытом огне, а интерьер напоминает замок.</p>
+                    <ul class="why-list">
+                        <li>Отборное мясо премиум-класса</li>
+                        <li>Приготовление на живом огне</li>
+                        <li>Интерьер в духе средневековья</li>
+                        <li>Сервис, достойный знатных гостей</li>
+                    </ul>
+                    <a href="about.html" class="btn btn-outline">Узнать больше</a>
+                </div>
+                <div class="about-visual">
+                    <img src="logo.svg" alt="Prime Fire" style="object-fit:contain;background:#1c1917;padding:40px;height:360px;">
+                    <div class="frame-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" style="background:linear-gradient(180deg,var(--stone),var(--ink));border-top:1px solid rgba(201,162,39,0.2);">
+        <div class="container">
+            <div class="section-title"><div class="section-ornament">✦</div><h2>Избранные стейки</h2></div>
+            <div class="menu-grid">
+                <div class="menu-card"><div class="menu-card-img">🥩</div><div class="menu-card-body"><div class="menu-card-header"><h3>Ribeye Fire</h3><span class="price">65 000 ₸</span></div><p>Сочный рибай на кости.</p><span class="badge badge-fire">Хит зала</span></div></div>
+                <div class="menu-card"><div class="menu-card-img">🥩</div><div class="menu-card-body"><div class="menu-card-header"><h3>Tomahawk</h3><span class="price">145 000 ₸</span></div><p>Впечатляющий томагавк.</p><span class="badge badge-fire">Хит зала</span></div></div>
+                <div class="menu-card"><div class="menu-card-img">🥩</div><div class="menu-card-body"><div class="menu-card-header"><h3>Wagyu A5</h3><span class="price">210 000 ₸</span></div><p>Японский вагю A5.</p><span class="badge badge-rare">Эксклюзив</span></div></div>
+            </div>
+            <div style="text-align:center;margin-top:40px;"><a href="menu.html" class="btn btn-gold">Полное меню</a></div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container" style="text-align:center;">
+            <div class="section-ornament">⚔ ✦ ⚔</div>
+            <h2 style="font-family:'Cinzel Decorative',serif;color:var(--gold);margin-bottom:16px;">Готовы к пиру?</h2>
+            <p style="color:var(--ash);margin-bottom:28px;font-style:italic;">Забронируйте стол в зале огня — Тараз</p>
+            <a href="reservation.html" class="btn btn-gold">Забронировать стол</a>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand"><img src="logo.svg" alt="Prime Fire"><p>Премиальный стейк-хаус в Таразе.</p></div>
+                <div class="footer-col"><h4>Навигация</h4><ul><li><a href="index.html">Главная</a></li><li><a href="about.html">О нас</a></li><li><a href="menu.html">Меню</a></li><li><a href="reservation.html">Бронирование</a></li></ul></div>
+                <div class="footer-col"><h4>Меню</h4><ul><li><a href="menu.html">Стейки</a></li><li><a href="menu.html">Закуски</a></li></ul></div>
+                <div class="footer-col"><h4>Контакты</h4><ul><li>г. Тараз</li><li><a href="tel:+77001234567">+7 (700) 123-45-67</a></li></ul></div>
+            </div>
+            <div class="footer-bottom"><p><span class="ornament">✦</span> © 2026 Prime Fire Steakhouse • Тараз <span class="ornament">✦</span></p></div>
+        </div>
+    </footer>
+    <script>
+        const toggle = document.getElementById('mobile-toggle');
+        const mobileNav = document.getElementById('mobile-nav');
+        toggle.addEventListener('click', () => mobileNav.classList.toggle('open'));
+        if (window.innerWidth > 992) document.getElementById('header-btn').style.display = 'inline-flex';
+        window.addEventListener('resize', () => { document.getElementById('header-btn').style.display = window.innerWidth > 992 ? 'inline-flex' : 'none'; });
+    </script>
+</body>
+</html>
